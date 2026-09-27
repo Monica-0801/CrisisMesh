@@ -1,0 +1,50 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+.cxx/
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# .NET
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+
+# IDE / editor
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/secrets.json
+
+# Local databases and runtime data
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+backend/**/wwwroot/uploads/
+database/data/
+ai/models/

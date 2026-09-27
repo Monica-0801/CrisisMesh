@@ -1,0 +1,6 @@
+@CrisisMeshBackend_HostAddress = http://localhost:5249
+
+GET {{CrisisMeshBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
